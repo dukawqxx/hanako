@@ -1,0 +1,277 @@
+body {
+    font-family: 'fantasy', Luminari, fantasy;
+    font-size: 14px;
+    color: #6d2626;
+    background: rgb(170, 122, 122);
+    margin: 0 auto;
+    font-weight: 800;
+}
+
+.container {
+    width: 1500px;
+    margin: 700 auto;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.header-lg {
+    display: flex;
+    align-items: auto;
+    margin: 20;
+
+}
+
+.header-lg p {
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    width: 120px;
+    text-align: left;
+    
+}
+
+.header {
+    height: 90px;
+    background-color: #4b1d14;
+    padding: 20px ;
+      width: 2400px;
+    
+
+}
+
+.logo {
+    width: 100%;
+    height: 70px;
+    align-items: center;
+}
+
+nav {
+    text-align: center;
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 50px;
+    height: 100%;
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    
+
+
+}
+
+nav a:hover {
+    color: #fff;
+    transition: all 0.3s ease-out;
+ {
+  box-sizing: border-box;
+}
+
+
+
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+
+    
+    
+}
+
+.main {
+    color: rgb(12, 6, 6);
+
+    height: 100%;
+}
+
+.main h1 {
+    padding: 40px ;
+    text-align: center;
+}
+
+.main h2 {
+    margin-top: 0px;
+}
+.main h3{
+    margin-top: 0px;
+    
+}
+
+.main-info {
+    display: flex;
+}
+
+.first-block, 
+.second-block {
+    width: 50%;
+    line-height: 1.5em;
+}
+
+.first-block {
+    margin: 50px 35px 17px 75px;
+}
+
+.second-block {
+    margin: 50px 75px 17px 35px;
+}
+
+
+
+.first-block p,
+.second-block p {
+    margin:30px;
+}
+
+.first-block img {
+    width: 300px;
+    height: 200px;
+}
+
+.second-block img {
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+}
+
+.company {
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.clickIn {
+    display: flex;
+
+    align-items: center;
+}
+
+.clients {
+    padding: 20px 25px 20px 0;
+    text-align: center;
+    width: 30%;
+}
+
+.clients h3 {
+    font-size: 36px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.clients p {
+    font-size: 16px;
+    color: #adadad;
+    line-height: 1.7em;
+}
+
+.logoCompany {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.comp-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.comp-nav ul {
+    list-style: none;
+    padding: 5px ;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.comp-nav a {
+    display: inline-block;
+    width: 173px;
+    height: 115px;
+    margin: 25px 10px 25px 0;
+}
+
+
+
+.quote h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.quoteBlocks {
+    display: flex;
+}
+
+.quotes {
+    background: #faf9f9;
+    margin-bottom: 60px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.txtQuote {
+    font-style: italic;
+}
+
+.name,
+.name-1 {
+    margin-top: auto;
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.name::before,
+.name-1::before {
+    position: absolute;
+    content: "";
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    top: -10px;
+    right: 0;
+}
+
+.footer {
+    padding: 5px;
+    background: #202242;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.foot p {
+    position: relative;
+    padding-top: 40px;
+}
+
+.foot p::before {
+    position: absolute;
+    content: "";
+    width: 31px;
+    height: 30px;
+    top: 0;
+    left: 50%;
+    
+    transform: translate(-50%, 0);
+}
